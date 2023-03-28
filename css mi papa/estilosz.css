@@ -1,0 +1,29 @@
+h1 {
+    color: rgba(30, 204, 190, 0.747);
+}
+/*estoy probando fuentes*/
+p {
+    color: blueviolet;
+    font-size: 16pt;
+}
+
+p#primera-noticia {
+    color: chocolate;
+    font-size: 13pt;
+}
+
+p#otra-noticia {
+    color: rgb(15, 197, 197);
+    font-size: large;
+}
+
+.encabezado {
+    color: darkblue;
+    font-size: small;
+    text-transform: initial;
+}
+
+*peligro , fecha, autor {
+    color: rgb(214, 22, 157);
+    text-decoration-line: inherit;
+}

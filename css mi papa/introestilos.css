@@ -1,0 +1,41 @@
+/* estilos para colores*/
+
+.colores {
+    color: darkgreen;
+}
+
+.color-hexadecimal{
+    color: #ad8350;
+}
+
+.rgb {
+    color: rgb(200, 45, 120);
+}
+
+.rgba {
+    color: rgba(210, 240, 80, 0.5);
+}
+/* fondo */
+
+.fondo {
+    background-color: bisque;
+    background-image: url(https://i.pinimg.com/originals/37/4e/8d/374e8d6f868c0374364b4a751008d63f.png);
+    background-position: center, center;
+}
+
+.ancho {
+    background-color: blueviolet;
+    width: 100pt;
+}
+
+.alto {
+    background-color: coral;
+    height: 20pt;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: darkolivegreen;
+    border-width: 5pt;
+    margin:1pt
+}
