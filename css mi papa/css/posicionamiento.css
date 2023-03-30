@@ -1,0 +1,24 @@
+div{
+    border: 2px solid;
+    padding: 10px ;
+}
+ /* posicionamiento relativo: se ´posicinea en relacion al posicisionamiento original */
+.relativo {
+    height: 800px;
+  position: relative;
+  left: 80px; 
+}
+.fixed{
+    position: fixed;
+    bottom: 0%;
+}
+
+.absolute{
+    position: absolute;
+    top:0px ;right:0px;
+}
+.sticky{
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 0px;
+}

@@ -1,0 +1,14 @@
+.imagen {
+    display: flex;
+    width: 300px
+    ; align-items: center;
+}
+.imagen:hover{
+    opacity: 0.5;
+}
+.divv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
