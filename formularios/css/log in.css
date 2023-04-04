@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:  #161717;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    width: 450px;
+    margin: auto;
+}
+.botones{
+
+    display: flex;
+    gap:20px;
+    ;
+}
+
+.boton-de-google{
+    background-color: #2071E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;;
+}
+.boton-de-google:hover{
+    opacity: 0.8;
+
+}
+.boton-de-google picture{
+    width: 35px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boton-de-google picture img{
+    width:80%;
+}
+.boton-de-google span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.boton-de-twitter{
+    color: rgb(172, 172, 172);
+    background-color: rgb(240, 239, 239);
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton-de-twitter:hover{
+    background-color: #ddd;
+}
+h3{
+    color: white;
+}
+span{
+    color: white;
+}
+
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separador hr{
+    width: 100%;
+    margin-inline: 10px ;
+}
+
+.separador span{
+    color:#979797 ;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+ }
+.nombres{
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+}
+
+label input{
+    background-color: #212121;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 1s, box-shadow 1s
+}
+label input:hover{
+    background-color: #f1f1f1;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 1px #818181;
+}
+label input:focus{
+    background-color: #bebebe;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 1px #818181;
+}
+#checkbox{
+    display: flex;
+    flex-direction: row;
+  
+}
+#checkbox input[type="checkbox"]{
+    width: 20px;
+}
+#checkbox span{
+    font-weight: 400;
+}
+.submit{
+    width: 100%;
+    background-color: #EB4C8D;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 0.7;
+}
